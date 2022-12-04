@@ -8,10 +8,10 @@
 The database used to perform the exercise:
 http://sun.aei.polsl.pl/~mkawulok/gestures/index.html
 Skin detection both by verifying the pixels against the HSV model:
-*H<= 0.1 or H >= 0.9
-*0.2 <= S <= 0.6
-*V>= 0.4
-*Where H, S and V channels are normalized <0;1>.
++ H<= 0.1 or H >= 0.9
++ 0.2 <= S <= 0.6
++ V>= 0.4
++ Where H, S and V channels are normalized <0;1>.
 
 Tested was an algorithm that saves mask values for pixels marking on a circle
 with a chosen diameter r from the centroid. The number of sequences of ones gives the number of fingers visible in the 
